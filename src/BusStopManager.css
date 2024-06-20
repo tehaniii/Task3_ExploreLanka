@@ -1,0 +1,78 @@
+/* BusStopManager.css */
+
+.bus-stop-manager-container {
+    text-align: center; /* Center align text content */
+    margin: 0 auto; /* Center horizontally */
+    padding-top: 20px; /* Adjust as needed */
+    height: 80vh; /* Adjust height as needed */
+  }
+  
+  .bus-stop-manager {
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height to match width for a square shape */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20%; /* Adjust margin-left for rightward shift */
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #45a049;
+  }
+  
+  .unsubscribe-button {
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .unsubscribe-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .subscribed-stops {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stop-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

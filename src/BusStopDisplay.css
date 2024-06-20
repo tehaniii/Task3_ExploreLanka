@@ -1,0 +1,52 @@
+/* BusStopDisplay.css */
+
+.bus-stop-display-container {
+    text-align: center; /* Center align text content */
+    margin: 0 auto; /* Center horizontally */
+    padding-top: 20px; /* Adjust as needed */
+    height: 80vh; /* Adjust height as needed */
+  }
+  
+  .bus-stop-display {
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height to match width for a square shape */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20%; /* Adjust margin-left for rightward shift */
+  }
+  
+  .stop-container {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stop-container:last-child {
+    border-bottom: none;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bus-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
